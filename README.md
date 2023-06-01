@@ -1,58 +1,58 @@
 # how_to_install_oh-my-posh
 ## with wsl
-c```
+```c
 sudo apt-get install unzip
 ```
-
-c```
+===
+```c
 sudo apt update
 ```
 
-c```
+```c
 sudo apt install curl
 ```
 
-c```
+```c
 curl -s https://ohmyposh.dev/install.sh |sudo bash -s
 ```
 
-c```
+```c
 oh-my-posh
 ```
 
-c```
+```c
 mkdir ~/.poshthemes
 ```
 
-c```
+```c
 sudo cp /root/themes/night-owl.omp.json ~/.poshthemes/
 ```
 
-c```
+```c
 sudo cp /root/themes/night-owl.omp.json ~/.poshthemes/
 ```
 
-c```
+```c
 ls ~/.poshthemes
 ```
 
-c```
+```c
 oh-my-posh debug --config ~/.poshthemes/night-owl.omp.json
 ```
 
-c```
+```c
 sudo chown tuananhdev /home/tuananhdev/.poshthemes/night-owl.omp.json
 ```
 
-c```
+```c
 eval "$(oh-my-posh init bash --config ~/.poshthemes/night-owl.omp.json)"
 ```
 
-c```
+```c
 eval "$(oh-my-posh init bash --config ~/.poshthemes/night-owl.omp.json)"
 ```
 
-c```
+```c
 sudo nano ~/.bashrc
 ```
 
