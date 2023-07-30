@@ -57,3 +57,14 @@ eval "$(oh-my-posh init bash --config ~/.poshthemes/<yourtheme>.json)"
 ### Next you need to install the font. <a href="https://www.nerdfonts.com/font-downloads">Click here</a> to choice font.After downloading the font, install it on your computer
 ### The last step, you go to the settings by clicking the button next to create a new tab and select settings. At the taskbar select the ubuntu just installed and find the interface. find font-face and change the font you just installed. Save the settings again and you're done
 ## good luck
+
+# Install with windowns
+```terminal
+Set-ExecutionPolicy RemoteSigned
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+//to set theme 
+notepad $PROFILE
+```
+change PROFILE
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\night-owl.omp.json" | Invoke-Expression
