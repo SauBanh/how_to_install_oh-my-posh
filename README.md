@@ -66,5 +66,5 @@ Install-Module oh-my-posh -Scope CurrentUser
 //to set theme 
 notepad $PROFILE
 ```
-change PROFILE
+change PROFILE:
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\night-owl.omp.json" | Invoke-Expression
